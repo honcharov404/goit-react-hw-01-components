@@ -1,0 +1,43 @@
+.item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border: 2px solid #0057b7;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px #0057b7;
+  width: 450px;
+}
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 50px;
+}
+
+.online {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(0, 255, 0);
+}
+
+.offline {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: rgb(255, 0, 0);
+}
+
+.avatar {
+}
+
+.name {
+  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+}

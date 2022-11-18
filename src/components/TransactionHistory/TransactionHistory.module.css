@@ -1,0 +1,19 @@
+.transactionHistory {
+  width: 850px;
+}
+
+.header {
+  height: 50px;
+  background-color: #0057b7;
+  color: #ffd700;
+  text-transform: uppercase;
+}
+
+.row {
+  background-color: #ffd700;
+}
+
+.row:nth-child(2n) {
+  background-color: #0057b7;
+  color: #fff;
+}
